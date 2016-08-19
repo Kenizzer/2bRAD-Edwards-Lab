@@ -151,24 +151,20 @@ number of loci produced in populations as populations filters out monomorphic lo
 
 #### Determine number of loci in one file
 
-  head -n1 batch_1.structure.tsv |  sed 's/\t/\n/g' | wc -l
+    $ head -n1 batch_1.structure.tsv |  sed 's/\t/\n/g' | wc -l
   
 ### Loop to determine the number of loci for many files 
 
-for i in batch_?.structure.tsv; do 
-
-	myloci=$(head -n2 batch_1.structure.tsv | sed 's/\t/\n/g' | wc -l)
-	echo $i 'has' $myloci
-done
+script count_missing_data.sh
 
 ### Determine the amount of missing data in each file 
 
-my0s=$(tail -n +3 batch_1.structure.tsv | cut -f1,2 --complement | grep -o "0" | wc -l)
-myindiv=$(tail -n +3 batch_1.structure.tsv | wc -l)
-myloci=$(head -n2 batch_1.structure.tsv | sed 's/\t/\n/g' | wc -l)
-myobs=$(expr $myindiv \* $myloci)
+    $ my0s=$(tail -n +3 batch_1.structure.tsv | cut -f1,2 --complement | grep -o "0" | wc -l)
+    $ myindiv=$(tail -n +3 batch_1.structure.tsv | wc -l)
+    $ myloci=$(head -n2 batch_1.structure.tsv | sed 's/\t/\n/g' | wc -l)
+    $ myobs=$(expr $myindiv \* $myloci)
 
-echo "This is my # of 0s:"$my0s
-echo "This is my observations:"$myobs
+    $ echo "This is my # of 0s:"$my0s
+    $ echo "This is my observations:"$myobs
 
   
