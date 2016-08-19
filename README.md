@@ -9,7 +9,7 @@ This will show the manual for any command in UNIX, these are very detail and are
 
     $ ls -lsha    
 Checks permissions & size
-[a link](http://linuxcommand.org/images/file_permissions.png)
+[PHOTO](http://linuxcommand.org/images/file_permissions.png)
    
     $ chmod u+x filename.sh
 Give a file execute permission, 
@@ -97,7 +97,7 @@ Having trouble working with the cluster? READ THE DOCUMENTATION! Then find help 
 
 It is very wise to consult all the documentaion on the stacks website before beginning as it will save 
 some headaches later. *You were warned!*
-[a link](http://catchenlab.life.illinois.edu/stacks/)
+[STACKS Website](http://catchenlab.life.illinois.edu/stacks/)
 
 ##USTACKS
 Below are the commands used on the cluster. See the parameters tutorial on the stacks website for info on the M and m paramters
