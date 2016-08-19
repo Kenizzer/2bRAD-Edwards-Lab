@@ -1,0 +1,261 @@
+
+#####Command for populations set to run within any directory, this will print both the stream output and stream error into seperate files within the directory.
+
+
+*********************************************POPULATIONS 5 (BATCH5)***************************************************************************************
+#  all comands are written to run from p60, p70, or p80 percent directories.
+
+*******************************popschem1****************************8
+popschem1
+r=60%
+p=60%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ././populationerr.txt &
+
+popschem1
+r=60%
+p=70%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=60%
+p=80%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 11  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=80%
+p=60%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ././populationerr.txt &
+
+popschem1
+r=80%
+p=70%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=80%
+p=80%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 11  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+********************************************************popschem2*********************************8
+popschem2
+r=60%
+p=60%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=70%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=80%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 11  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=60%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=70%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=80%
+populations -P ../../../../ustacks5/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 5 -k -p 11  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+*********************POPULSTIONS 6 (BATCH6)***************************************************************************************************************************************8
+popschem1
+r=60%
+p=60%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=60%
+p=70%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=60%
+p=80%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 11  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=80%
+p=60%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=80%
+p=70%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1
+r=80%
+p=80%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem1.1.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 11  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+********************************************************popschem2*********************************8
+popschem2
+r=60%
+p=60%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=70%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=80%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 11  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=60%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=70%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=80%
+populations -P ../../../../ustacks6/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 6 -k -p 11  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+
+#####Command for populations set to run within any directory, this will print both the stream output and stream error into seperate files within the directory.
+
+****************************************************************************************************************************************************************
+*********************************************POPULATIONS 7 (BATCH7)***************************************************************************************
+#  all comands are written to run from p60, p70, or p80 percent directories.
+
+*******************************popschem1.2****************************8
+popschem1.2
+r=60%
+p=60%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ././populationerr.txt &
+
+popschem1.2
+r=60%
+p=70%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 9  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=60%
+p=80%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=80%
+p=60%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ././populationerr.txt &
+
+popschem1.2
+r=80%
+p=70%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 9  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=80%
+p=80%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+********************************************************popschem2*********************************8
+popschem2
+r=60%
+p=60%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=70%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 9  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=80%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=60%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=70%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 9  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=80%
+populations -P ../../../../ustacks7/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 7 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+*********************POPULSTIONS 8 (BATCH8)***************************************************************************************************************************************8
+popschem1.2
+r=60%
+p=60%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=60%
+p=70%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 9  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=60%
+p=80%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=80%
+p=60%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=80%
+p=70%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 9  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem1.2
+r=80%
+p=80%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem1.2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+********************************************************popschem2*********************************8
+popschem2
+r=60%
+p=60%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 8  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=70%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 9  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=60%
+p=80%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 10  -m 3 -r 0.6 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=60%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 8  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=70%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 9  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
+
+popschem2
+r=80%
+p=80%
+populations -P ../../../../ustacks8/ -M ../../popmap_popschem2.txt --min_maf 0.05 --max_obs_het 0.75 -b 8 -k -p 10  -m 3 -r 0.8 -t 20 --structure --genepop --write_single_snp 2> ./populationout.txt > ./populationerr.txt &
