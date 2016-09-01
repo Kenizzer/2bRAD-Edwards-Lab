@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 fastq_quality_filter.exe -i Dios_plate1_row1_S7_L001_R1_001_TGGT.fq -o 46_01.fastq -Q 33 -q 20 -p 90;\
 fastq_quality_filter.exe -i Dios_plate1_row1_S7_L001_R1_001_AGAC.fq -o 46_23.fastq -Q 33 -q 20 -p 90;\
 fastq_quality_filter.exe -i Dios_plate1_row1_S7_L001_R1_001_ACCA.fq -o 48_11.fastq -Q 33 -q 20 -p 90;\

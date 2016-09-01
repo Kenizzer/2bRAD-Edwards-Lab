@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sstacks -b 2 -p 15 -c ./batch_2.catalog.snps.tsv.gz -o ../sstacks2 -s ./04_01 \
 -s ./04_02 \
 -s ./05_01 \

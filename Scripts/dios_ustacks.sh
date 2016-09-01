@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ####USTACKS LOOP######
 #Loop will take all fastq.gz files as inputs and run ustacks using the same parameters.
 

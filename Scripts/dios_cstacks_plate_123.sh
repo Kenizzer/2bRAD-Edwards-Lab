@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ﻿# CSTACKS to be run from the ustacks directory and outputs send to cstacks directory
 cstacks -b 1 -n 3 -p 15 -o ../cstacks -s ./04_01 \
 -s ./04_02 \
