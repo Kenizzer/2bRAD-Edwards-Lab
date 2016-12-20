@@ -5,7 +5,7 @@ work!
 
 ##Useful commands to start
     $ man "command"
-This will show the manual for any command in UNIX, these are very detail and are invaluble.
+This will show the manual for any command in UNIX, these are very detailed and are invaluble.
 
     $ ls -lsha    
 Checks permissions & size
