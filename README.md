@@ -3,7 +3,7 @@
 As always everything in this pipeline is as is. There will be mistakes so take care to double check your
 work!
 
-##Useful commands to start
+## Useful commands to start
     $ man "command"
 This will show the manual for any command in UNIX, these are very detailed and are invaluble.
 
@@ -30,7 +30,7 @@ opened cygwin and navigate to directory.
     $ ls
     $ cd ../../cygdrive/c/Users/alx552/Desktop/thesis project/RAD seq/2bRAD data
  
-##Unzipped all raw fastq files
+## Unzipped all raw fastq files
 use gzip
  
 The script (*trim2bRAD_2barcodes_noAdap.pl*) below will demultiplex the reads (script is based off one
@@ -48,7 +48,7 @@ from Matz Lab protocol).
 
 
  
-##Changes made = Add "row*/" before input, output, mkdir, and mv. These changes now allow the script to be run within the sorted_trimmed directroy.
+## Changes made = Add "row*/" before input, output, mkdir, and mv. These changes now allow the script to be run within the sorted_trimmed directroy.
 This script (*fastz_quality_naming_plate123.sh*) is made to run all samples thro the fastx quality filter,
 discard low qual reads, and rename the files. Then it will create a new directory for the original files
 and move them to the new directory.
@@ -80,7 +80,7 @@ and uploaded to the cluster via filezilla.
 why zip and tar? KISS! Keep it small stupid.
 
 
-##MANAGING AND USING CLUSTER NODES 
+## MANAGING AND USING CLUSTER NODES 
 Much of what you need to know is covered in the documentation found for the Kepler cluster.
 READ THE DOCUMENTATION!
 
@@ -99,7 +99,7 @@ It is very wise to consult all the documentaion on the stacks website before beg
 some headaches later. *You were warned!*
 [STACKS Website](http://catchenlab.life.illinois.edu/stacks/)
 
-##USTACKS
+## USTACKS
 Below are the commands used on the cluster. See the parameters tutorial on the stacks website for info on the M and m paramters
 
     $ cd demultiplexed_trimmed_data/plate2/
@@ -107,7 +107,7 @@ Below are the commands used on the cluster. See the parameters tutorial on the s
     $ chmod +x dios_ustacks.sh
     $ sh dios_ustacks.sh
 
-##CSTACKS
+## CSTACKS
 To run the cstacks program, I ran the script below. 
 
     $ ./dios_cstacks_plate_123.sh
@@ -127,12 +127,12 @@ Run the command below to check the progress of SSTACKS without having to see the
  
     $ egrep -o "\[.*]" sstacks3out.txt
  
-##Populations
+## Populations
 Populations program was run from the command line (i.e. no .sh file)  (see populations_runs.txt). In order
 to run populations all stacks outputs were put into sstacks directory and Populations was run from the 
 populations directory. 
 *You need to create a population map file in order to run populations* 
-###EXAMPLE
+### EXAMPLE
 popschem1
 r=60%
 p=60%
