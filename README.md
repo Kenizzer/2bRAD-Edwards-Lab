@@ -116,7 +116,7 @@ Run the command below to check the progress of CSTACKS without having to see the
 
     $ egrep -o "\[.*]" cstacksout.txt
  
-##SSTACKS
+## SSTACKS
 SSTACKS requires all the outputs from both ustacks and cstacks thus, cstacks outputs were copied to to 
 ustacks directory and sstacks was run from the ustacks directory.To run the SSTACKS program, I ran the
 script below.
