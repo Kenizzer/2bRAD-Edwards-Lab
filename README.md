@@ -1,10 +1,10 @@
 # Edwards lab 2bRAD pipeline
 
-#####If you need help with the basics of coding, get this book https://practicalcomputing.org/. The first few chapters will teach you enough to get started.
+##### If you need help with the basics of coding, get this book https://practicalcomputing.org/. The first few chapters will teach you enough to get started.
 
-#####If you are having trouble with STACKS see the website https://catchenlab.life.illinois.edu/stacks/.
+##### If you are having trouble with STACKS see the website https://catchenlab.life.illinois.edu/stacks/.
 
-##Lets start 
+## Lets start 
 First, check the the MD5sums of the files. Make sure you collected the MD5sums from the seqeucning core.
 ```bash
 md5sum *.gz
